@@ -1,0 +1,60 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar__logo-titulo {
+    display: flex;
+    padding-left: 112px;
+    position: absolute;
+
+}
+.navbar__logo {
+    width: 27px;
+    margin-top: 26px;
+     
+}
+.navbar__titulo {
+    font-size: 18px;
+    color: #3A404E;
+    margin-left: 10px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+.container__links {
+    display: flex;
+    padding-left: 379px;
+    text-decoration: none;
+    margin-top: 28px;
+}
+
+.navbar__link {
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #667085;
+    margin: 0.5em;
+    text-decoration: none;  
+}
+.login {
+    display: flex;
+    margin-right: 112px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.entrar {
+    margin-top: 28px;
+    text-decoration: none;  
+    color: #667085;
+    margin-right: 24px;
+}
+.cadastrar {
+    margin-top: 20px;
+    box-sizing: border-box;
+    background: #8E2424;
+    border-radius: 8px;
+    padding: 10px 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
